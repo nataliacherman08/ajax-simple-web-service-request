@@ -1,16 +1,52 @@
-@font-face {
-  font-family: "Shippori Mincho B1";
-  font-size: normal;
-  font-weight: normal;
-  src: url("../fonts/ShipporiMinchoB1-Bold.ttf") format("truetype"), url("../fonts/ShipporiMinchoB1-ExtraBold.ttf") format("truetype"), url("../fonts/ShipporiMinchoB1-Medium.ttf") format("truetype"), url("../fonts/ShipporiMinchoB1-Regular.ttf") format("truetype"), url("../fonts/ShipporiMinchoB1-SemiBold.ttf") format("truetype");
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Vidaloka&display=swap");
 body {
   margin: 0;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  font-family: "Cormorant Garamond";
+  background-color: #fcf9f9;
+  background-position: center;
+}
+
+h1 {
+  font-family: "Vidaloka";
+  font-weight: bold;
+  font-size: 80px;
+  margin-top: 30px;
 }
 
 img {
-  width: 400px;
+  width: 350px;
+  -webkit-box-shadow: 20px 20px 20px black;
+          box-shadow: 20px 20px 20px black;
+  border-radius: 2px;
+}
+
+.quote {
+  margin-top: 40px;
+  width: 800px;
+  font-size: 25px;
+  font-style: italic;
+  border-left: 2px solid #c92424;
+  padding: 5px;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 25px;
 }
 /*# sourceMappingURL=style.css.map */

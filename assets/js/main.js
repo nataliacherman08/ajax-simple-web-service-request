@@ -10,7 +10,7 @@ fetch("https://thatsthespir.it/api")
             res.json().then(data => {
                 img.src = data.photo;
                 quote.innerText = `" ${data.quote} "`;
-                author.innerText = data.author;
+                author.innerText = `- ${data.author}`;
             })
         } else {
             error.innerHTML = "Something went wrong :("; // Not sure that it works
