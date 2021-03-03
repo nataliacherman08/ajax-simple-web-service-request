@@ -2,9 +2,8 @@
 ## Content
 In this repository, I realised the ajax request exercice.
 
-##Link
+## Link
 Here is the link to the site
 * [Ajax Quotes Request](https://nataliacherman08.github.io/ajax-simple-web-service-request/)
 
-##Enjoy
 ![Gif](https://media.giphy.com/media/KzQeunCPnJ79e/giphy.gif)
