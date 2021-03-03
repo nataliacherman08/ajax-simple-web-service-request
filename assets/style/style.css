@@ -30,6 +30,8 @@ h1 {
 }
 
 img {
+  margin-top: 0;
+  padding-top: 0;
   width: 250px;
   -webkit-box-shadow: 20px 20px 20px black;
           box-shadow: 20px 20px 20px black;
