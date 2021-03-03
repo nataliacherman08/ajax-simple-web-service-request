@@ -4,6 +4,11 @@
 $white: #fcf9f9;
 $red: #c92424;
 
+body
+{
+    height: 90vh;
+}
+
 section
 {
     display: flex;
@@ -13,10 +18,10 @@ section
 
 .body
 {
-    margin: 0;
-    padding: 0;
+    margin-top: 20px;
+    padding: 80px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     text-align: center;
