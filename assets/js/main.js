@@ -4,7 +4,7 @@ const author = document.getElementById("author");
 
 let error = document.getElementById("error");
 
-fetch("https://thatsthespir.it/api/2fhjehfk")
+fetch("https://thatsthespir.it/api")
     .then(res => {
         if (res.ok) {
             res.json().then(data => {
