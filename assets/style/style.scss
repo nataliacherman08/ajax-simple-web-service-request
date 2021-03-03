@@ -4,7 +4,14 @@
 $white: #fcf9f9;
 $red: #c92424;
 
-body
+section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.body
 {
     margin: 0;
     padding: 0;
