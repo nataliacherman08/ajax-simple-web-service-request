@@ -2,23 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Vidaloka&display=swap");
 body {
   height: 90vh;
-}
-
-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  background: url("https://images.unsplash.com/photo-1614740044931-544b9fccb9e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=664&q=80") no-repeat;
+  background-position-x: right;
 }
 
 .body {
-  margin-top: 20px;
+  margin-top: 50px;
   padding: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -30,36 +19,33 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
   text-align: center;
   font-family: "Cormorant Garamond";
-  background-color: #fcf9f9;
   background-position: center;
 }
 
 h1 {
   font-family: "Vidaloka";
   font-weight: bold;
-  font-size: 90px;
-  margin-top: 30px;
-  border-top: 3px solid #c92424;
-  border-bottom: 3px solid #c92424;
+  font-size: 80px;
+  margin: 30px 0 0 50px;
 }
 
 img {
   margin-top: 0;
   padding-top: 0;
   width: 250px;
-  -webkit-box-shadow: 20px 20px 20px black;
-          box-shadow: 20px 20px 20px black;
+  -webkit-box-shadow: 20px 20px 30px black;
+          box-shadow: 20px 20px 30px black;
   border-radius: 2px;
 }
 
 .quote {
   margin-top: 40px;
-  width: 800px;
+  width: 500px;
   font-size: 25px;
   font-style: italic;
   border-left: 2px solid #c92424;
