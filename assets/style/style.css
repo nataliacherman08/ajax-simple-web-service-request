@@ -6,6 +6,13 @@ body {
   background-position-x: right;
 }
 
+h1 {
+  font-family: "Vidaloka";
+  font-weight: bold;
+  font-size: 80px;
+  margin: 30px 0 0 50px;
+}
+
 .body {
   margin-top: 50px;
   padding: 80px;
@@ -27,22 +34,6 @@ body {
   background-position: center;
 }
 
-h1 {
-  font-family: "Vidaloka";
-  font-weight: bold;
-  font-size: 80px;
-  margin: 30px 0 0 50px;
-}
-
-img {
-  margin-top: 0;
-  padding-top: 0;
-  width: 300px;
-  -webkit-box-shadow: 20px 20px 30px black;
-          box-shadow: 20px 20px 30px black;
-  border-radius: 2px;
-}
-
 .quote {
   margin-top: 40px;
   width: 500px;
@@ -55,5 +46,14 @@ img {
 .author {
   font-weight: bold;
   font-size: 25px;
+}
+
+img {
+  margin-top: 0;
+  padding-top: 0;
+  width: 300px;
+  -webkit-box-shadow: 20px 20px 30px black;
+          box-shadow: 20px 20px 30px black;
+  border-radius: 2px;
 }
 /*# sourceMappingURL=style.css.map */
