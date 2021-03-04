@@ -52,8 +52,8 @@ img {
   margin-top: 0;
   padding-top: 0;
   width: 300px;
-  -webkit-box-shadow: 20px 20px 30px black;
-          box-shadow: 20px 20px 30px black;
+  -webkit-box-shadow: -20px 20px 20px #1a1919;
+          box-shadow: -20px 20px 20px #1a1919;
   border-radius: 2px;
 }
 /*# sourceMappingURL=style.css.map */
